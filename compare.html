@@ -18,6 +18,17 @@
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://127.0.0.1:5500/max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/windspeed.html">Wind Speed</a>
+              </div>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="http://127.0.0.1:5500/#">Home</a>
             </li>
@@ -27,47 +38,42 @@
             <li class="nav-item">
               <a class="nav-link" href="http://127.0.0.1:5500/data.html?#">Data</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
           </ul>
         </div>
       </nav>
 
   <div class="container">
     <div class="row">
+      <div class="col-md-12">
         <div class="jumbotron">
           <h1 class="display-4">Comparison: Latitude vs. X</h1>
           <hr class="my-4">
-            <div class="row">
-              <div class="col-md-6">
-                <h3>vs. Temperature</h3>
-                <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="Yvonne">
-              </div>
-              <div class="col-md-6">
-                <h3>vs. Humidity</h3>
-                <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="Yvonne">
-              </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="http://127.0.0.1:5500/max_temp.html">
+                <img class="img-thumbnail" src="Images/lat_vs_temp_scatter.png" alt="Latitude vs. Temp image could not be displayed">
+              </a>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <h3>vs. Cloudiness</h3>
-                <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="Yvonne">
-              </div>
-              <div class="col-md-6">
-                <h3>vs. Wind Speed</h3>
-                <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="Yvonne">
-              </div>    
-            </div>        
+            <div class="col-md-6">
+              <a href="http://127.0.0.1:5500/cloudiness.html">
+                  <img class="img-thumbnail" src="Images/lat_vs_cloudiness_scatter.png" alt="Cloudiness vs. Temp image could not be displayed">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="http://127.0.0.1:5500/humidity.html">
+                <img class="img-thumbnail" src="Images/lat_vs_hum_scatter.png" alt="Humidity vs. Temp image could not be displayed">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="http://127.0.0.1:5500/windspeed.html">
+                <img class="img-thumbnail" src="Images/lat_vs_windspeed_scatter.png" alt="Wind Speed vs. Temp image could not be displayed">
+              </a>
+            </div>    
+          </div>     
         </div>
+      </div>
       </div>
     </div>
   </div>
