@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-### To navigate to the dashboard, follow this link: http://127.0.0.1:5500/# 
+### To navigate to the dashboard, follow this link: http://127.0.0.1:5500/index.html
 
 ## Background
 
