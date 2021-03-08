@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-### To navigate to the dashboard, follow this link: http://127.0.0.1:5500/index.html
+### To navigate to the dashboard, follow this link: https://ytran010.github.io/
 
 ## Background
 
